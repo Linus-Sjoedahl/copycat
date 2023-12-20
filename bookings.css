@@ -1,0 +1,254 @@
+body {
+    margin-right: 500px;
+    margin-left: 500px;
+    background-color: white;
+    color: white;
+
+  }
+  .black-background {
+    background-color: rgb(0, 0, 0);
+    height: 450px;
+    width: 100vw;
+    
+    position: absolute;
+    margin-left: -500px;
+    z-index: -1;
+  }
+
+
+  .blue-background {
+    background-color: rgb(0, 59, 149);
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 59, 149);
+    color: #fff;
+    padding: 10px;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+  }
+
+  .header-links {
+    display: flex;
+    align-items: center;
+  }
+
+  .header123   :hover {
+    background-color: #003f7a;
+  }
+
+  .header-links img {
+    margin-right: 12px;
+    margin-left:12px;
+    height: 35px;
+  }
+
+  nav {
+    background-color: rgb(0, 59, 149);
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Arial', sans-serif;
+  }
+
+  nav {
+    margin: 0;
+  }
+
+  header h1 {
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    font-size: 23px;
+  }
+
+  nav a {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 0 5px;
+    border-radius: 20px;
+    font-size: 15px;
+    border: 1px solid transparent;
+  }
+
+  nav a:hover {
+    background-color: #3363a3;
+  }
+
+  nav a.active {
+    background-color: #1d5196;
+    color: #fff;
+    border-color: #fff;
+  }
+
+  .register-btn,
+  .signin-btn {
+    background-color: #fff;
+    color: rgb(104, 152, 224);
+    border: 1px solid rgb(104, 152, 224);
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 8px 15px;
+    margin: 0 5px;
+    text-decoration: none;
+  }
+  .register-btn:hover,
+  .signin-btn:hover {
+      background-color: rgb(185, 215, 230);
+  }
+
+  .header123, .header1234 {
+    font-weight: bold; 
+    margin-right:10px;
+  }
+
+  
+
+  
+
+  button {
+    padding: 8px 15px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #fff;
+    color: #0055a5;
+  }
+
+.offer {
+  font-family: 'Arial', sans-serif;
+font-size: 19px;
+margin-top: 50px;
+}
+
+.offer2 {
+  font-family: 'Arial', sans-serif;
+font-size: 50px;
+margin-top: 20px;
+font-weight: bold;
+}
+
+.offer3 {
+  font-family: 'Arial', sans-serif;
+font-size: 24px;
+margin-top: -40px;
+}
+
+.deals {
+  
+    background-color: rgb(30, 140, 243);
+    color: rgb(255, 255, 255);
+    
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 14px 15px;
+   
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+
+  }
+
+.three {
+  display:flex;
+  align-items: center;
+  margin-top: 10vh;
+  justify-content: space-between;
+  position:fixed;     
+  
+}
+
+.dealss, .dealsss, .dealssss {
+  background-color: #fff;
+    color: rgb(27, 27, 27);
+    border: 5px solid rgb(233, 170, 55);
+    font-weight: bold;
+    font-size: 0.65vw;
+    border-radius: 7px;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-right: 100px;
+    padding-left: 50px;
+    margin: -10px;
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+
+}
+
+.search {
+  background-color: rgb(13, 138, 240);
+    color: rgb(255, 255, 255);
+    border: 4px solid rgb(233, 170, 55);
+    font-weight: bold;
+    font-size: 19px;
+    border-radius: 4px;
+    padding-top: 2.7vh;
+    padding-bottom: 2.7vh;
+    padding-right: 40px;
+    padding-left: 40px;
+
+    margin: -10px;
+
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+
+}
+
+.search:hover {
+  background-color: rgb(6, 50, 172);
+}
+
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+
+  }
+
+  .dropdown-content a {
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    color: #333;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
